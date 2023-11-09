@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(104, 152, 152);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.sembunyi {
+    display: none;
+}
+
+a:link{
+    text-decoration: none;
+    color:blue;
+
+}
+
+a:visited{
+    text-decoration: none;
+    color: green;
+}
+
+a:hover{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+
+.profpicture{
+    border-radius: 50%;
+}
+
+.fotobiasa {
+    border-radius: 10px 10px ;
+}
+
+.kotakfoto{
+    border-radius: 10px 10px;
+    border: 1px solid;
+    padding: 5px ;
+    width: 610px;
+
+}

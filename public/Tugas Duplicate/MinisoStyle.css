@@ -1,0 +1,137 @@
+html {
+    height:100%
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif,Arial;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+
+
+.arumi-logoMiniso {
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    display: block;
+    object-fit: contain;
+    object-position: initial;
+    filter: none;
+    margin-bottom: 0.5cm;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1.3cm;
+}
+
+.arumi-ceklis{
+    display: block;
+    top: 10px;
+    object-fit: none;
+    object-position: initial;
+    filter: none;
+}
+.arumi-username {
+        margin: 0px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.5;
+        text-overflow: ellipsis;
+        max-width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        margin-bottom: 1cm;
+    }
+
+    .arumi-container {
+        z-index: 0;
+        overflow: hidden;
+        margin-bottom: 0px;
+        border: none;
+        color: rgb(255, 255, 255);
+        border-radius: 14px;
+       
+}
+      
+      
+a {
+        height: auto;
+        position: relative;
+        width: 100%;
+        appearance: none;
+        box-sizing: border-box;
+        vertical-align: middle;
+        text-decoration: none;
+        color: black;
+      }
+      
+p {
+        font-size: 16px;
+        text-align: center;
+        font-weight: 600;
+        color: white;
+      }
+      
+.arumi-button {
+        z-index: 0;
+        border: none;
+        background-color: rgb(42, 50, 53);
+        width: 690px;
+        height:auto;
+        margin: auto;
+        color: rgb(50, 5, 0);
+        border-radius: 14px;
+        position: relative;
+        height: auto;
+        margin-bottom: 16px;
+        margin-top: 0px;
+        padding: 0;
+        padding-top: 2px;
+        padding-bottom: 2px;
+      }
+      
+.arumi-button:hover {
+    transform: scale(1.025);
+
+
+      }
+      
+.arumi-button-container {
+        margin-top: 10px;
+      }
+      
+      
+.arumi-dots {
+        position: absolute;
+        top:20%;
+        border-radius: 50%;
+        width: 29px;
+        height: 0px;
+        right: 8px;
+        transform: translateY(-50%);
+        color: white;
+        display: none;
+      }
+
+.arumi-button-container:hover .arumi-dots {
+        display:block;
+      }
+
+.arumi-bottom {
+   margin-top: 1cm;
+}
+
+
+.arumi-botpic{
+    width: 100px;
+    height: 50px;
+    margin-left: 685px;
+    margin-right: 685px;
+    margin-bottom: 2cm;
+    
+
+}

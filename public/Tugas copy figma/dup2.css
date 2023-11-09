@@ -1,0 +1,70 @@
+html {
+    height:100%
+   
+}
+.head {
+    margin-bottom: 33px;
+}
+
+body {
+    background-image:url("Polygon1.png");
+    background-color: #f5f5f5;
+    font-family: sans-serif,Arial;
+    background-position:100%;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.logo1{
+    float:right;
+    margin-right:75px;
+
+}
+
+
+.text1{
+    margin-left:45px;
+    font-size: 55px;
+    font-weight:900;   
+    padding-left: 50px;  
+
+}
+
+.text2{
+    font-size: 40px;
+    margin-left: 45px;
+    margin-top: 45px;
+    font-weight: bolder;
+    margin-right: 20px;
+    padding-right: 50px;
+}
+
+.text3{
+    font-size: 30px;
+    margin-left: 45px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+    padding-right: 50px;
+  
+}
+
+.text4{
+    font-size: 30px;
+    margin-left: 45px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+    padding-left: 50px;
+  
+}
+.text5{
+    font-size: 40px;
+    margin-left: 45px;
+    margin-top: 45px;
+    font-weight: bolder;
+    margin-right: 20px;
+    padding-left: 50px;
+}
+
+

@@ -1,0 +1,303 @@
+html {
+  height:100%
+
+}
+.head {
+  margin-bottom: 33px;
+}
+
+body {
+    background-image: url(FotoMuka.jpg);
+    background-color: #eadcc0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-position:right;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.textMico{
+    font-size: 45px;
+    font-weight:900;
+}
+
+.button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+
+
+
+.text1{
+    margin-left:50px;
+    font-size: 55px;
+    font-weight:900;
+    padding-left: 70px;
+    padding-top: 7px;
+
+}
+
+.text2{
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-weight: bolder;
+    padding-left:100px;
+}
+
+.animal{
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+.container2{
+  background-image: url(Drive.jpg);
+  background-color: #eadcc0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-position:right;
+  background-repeat:no-repeat;
+  background-size:contain;
+  height:100%;
+}
+.container3{
+  background-image: url(Malang.jpg);
+  background-color: #dedede;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-position:left;
+  background-repeat:no-repeat;
+  background-size:contain;
+  height:100%;
+
+}
+.container4{
+  background-image: url(dog.jpg);
+  background-color: #eadcc0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-position:right;
+  background-repeat:no-repeat;
+  background-size:contain;
+  height:100%;
+}
+.container5{
+  background-image: url(fform.jpg);
+  background-color: #ffffff;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-repeat:no-repeat;
+  background-size:cover;
+  opacity: 0.5;
+  height:100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+
+  li a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
+
+  .container1{
+    background-image: url(burger.jpg);
+    background-color: #dedede;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-position:left;
+    background-repeat:no-repeat;
+    background-size:contain;
+    height:100%;
+
+
+  }
+  .container2{
+    background-image: url(Drive.jpg);
+    background-color: #eadcc0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-position:right;
+    background-repeat:no-repeat;
+    background-size:contain;
+    height:100%;
+  }
+  .container3{
+    background-image: url(Malang.jpg);
+    background-color: #dedede;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-position:left;
+    background-repeat:no-repeat;
+    background-size:contain;
+    height:100%;
+
+  }
+  .container4{
+    background-image: url(Dog.jpg);
+    background-color: #eadcc0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-position:right;
+    background-repeat:no-repeat;
+    background-size:contain;
+    height:100%;
+    width:100%;
+  }
+  .container5{
+    background-image: url(fform.jpg);
+    background-color: #ffffff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-repeat:no-repeat;
+    background-size:cover;
+    opacity: 0.5;
+    height:100%;
+  }
+
+  .bText{
+    font-size:larger;
+    margin-top: 60px;
+    text-align: justify;
+    padding-right: 70px;
+    margin-right: 70px;
+  }
+
+  .cText{
+    font-size:larger;
+    text-align: justify;
+    margin-left: 50px;
+    padding-right: 30px;
+    padding-top: 40px;
+  }
+  .makanan{
+    height: 10%;
+
+  }
+  .bflex{
+  display: flex;
+  flex-direction: row-reverse;
+  }
+
+
+  .flip-box {
+    background-image: transparent;
+    width: 42%;
+    height: 80%;
+    perspective: 1000px;
+    margin-top: 50px;
+
+  }
+
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-box-front, .flip-box-back {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .flip-box-front {
+    background-image:url(hamburger.png);
+    background-size:cover;
+
+  }
+
+  .flip-box-back {
+    background-image:url(french-fries.png);
+    background-size: cover;
+
+    transform: rotateY(180deg);
+  }
+
+
+  .bulan{
+    width: 170px;
+    height: 123px;
+    position: relative;
+    animation: bulan1 10s infinite;
+    margin-left: 70px;
+  }
+  .mobil {
+    width: 170px;
+    height: 123px;
+    position: relative;
+    animation: example 4s infinite;
+  }
+  .mobil1 {
+    width: 170px;
+    height: 123px;
+    position: relative;
+    animation: example 5s infinite;
+  }
+
+  @keyframes bulan1 {
+    0% {top: 0px;}
+    25% {top: 200px;}
+    50% {top:0px;}
+    75%{top:200px}
+    100%{top:0px}
+  }
+  @keyframes example {
+    from {left: 0px;}
+    to {left: 500px;}
+  }
+
+  .zoom {
+    padding: 50px;
+    transition: transform .2s;
+    width: 270px;
+    height: 270px;
+    margin: 0 auto;
+    margin-left: 40px;
+    border-radius: 150px;
+  }
+
+  .zoom:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+
+  .formSpacing{
+    margin-top: 0px;
+  }
+  .formMargin{
+    margin-left:200px;
+    margin-top:20px;
+  }
+
