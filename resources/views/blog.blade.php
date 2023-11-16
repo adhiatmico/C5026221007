@@ -4,6 +4,12 @@
 
         </head>
 
-        <body>jsigji</body>
+        <body>
+
+            <a href="showjam/{{date('G:i:s')}}"> Klik disini </a>
+
+
+
+        </body>
 
 </html>
