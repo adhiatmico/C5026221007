@@ -38,6 +38,7 @@
                 </textarea>
             </div>
         </div>
+        <input type="submit" value="Simpan Data" class="btn btn-primary">
         </form>
     </div>
 @endsection
