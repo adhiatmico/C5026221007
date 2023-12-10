@@ -24,6 +24,7 @@
               <a class="dropdown-item" href="/pegawai">Pegawai</a>
               <a class="dropdown-item" href="/nilaikuliah">NilaiKuliah</a>
               <a class="dropdown-item" href="/keranjangbelanja">KeranjangBelanja</a>
+              <a class="dropdown-item" href="/keranjangbelanja">Kursi</a>
 
             </div>
           </li>

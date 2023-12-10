@@ -118,3 +118,17 @@ Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangController@index')
 Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangController@beli');
 Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
 Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\KeranjangController@hapus');
+
+
+Route::get('/kursi','App\Http\Controllers\KursiController@index');
+Route::get('/kursi/tambahkursi','App\Http\Controllers\KursiController@tambah');
+Route::post('/kursi/store','App\Http\Controllers\KursiController@store');
+Route::get('/kursi/edit/{kodekursi}','App\Http\Controllers\KursiController@edit');
+Route::post('/kursi/update','App\Http\Controllers\KursiController@update');
+Route::get('/kursi/hapus/{kodekursi}','App\Http\Controllers\KursiController@hapus');
+
+
+Route::get('/kursi/cari','App\Http\Controllers\KursiController@cari');
+
+
+Route::get('/kursi/viewkursi/{kodekursi}','App\Http\Controllers\KursiController@view');
