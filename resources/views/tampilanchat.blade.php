@@ -15,8 +15,6 @@
         @foreach ($chat as $p)
             <tr>
                 <td>{{ $p->id }}</td>
-
-            
                 <td style="text-align: center">
                     @if($p->pesan == ':))')
                     <img src = {{asset('fotoeas/1.png')}} width="50px" height="50px" style="float:left">
@@ -32,11 +30,11 @@
 
                     @elseif($p->pesan == ';)')
                     <img src = {{asset('fotoeas/5.png')}} width="50px" height="50px" style="float:left">
+
+                    @else
+                    {{$p->pesan}}
                     @endif
                 </td>
-
-
-
                 <td>
                     <a href="/chat/viewchat/{{ $p->id }}" class="btn btn-success">View</a>
                 </td>
