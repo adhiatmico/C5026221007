@@ -13,39 +13,47 @@
         </tr>
 
         @foreach ($chat as $p)
-            <tr>
-                <td>{{ $p->id }}</td>
-                <td style="text-align: center">
-                    @if($p->pesan == ':))')
-                    <img src = {{asset('fotoeas/1.png')}} width="50px" height="50px" style="float:left">
+    <tr>
+        <td>{{ $p->id }}</td>
+        <td style="text-align: center">
+            @php
+                $pesanArray = explode(' ', $p->pesan);
+                $displayImage = false;
+            @endphp
 
-                    @elseif($p->pesan == ':3')
-                    <img src = {{asset('fotoeas/2.png')}} width="50px" height="50px" style="float:left">
+            @foreach ($pesanArray as $word)
+                @if($word == ':))' || $word == ':3' || $word == ':P' || $word == ':C' || $word == ';)')
+                    @php
+                        $displayImage = true;
+                        break;
+                    @endphp
+                @endif
+            @endforeach
 
-                    @elseif($p->pesan == ':P')
-                    <img src = {{asset('fotoeas/3.png')}} width="50px" height="50px" style="float:left">
-
-                    @elseif($p->pesan == ':C')
-                    <img src = {{asset('fotoeas/4.png')}} width="50px" height="50px" style="float:left">
-
-                    @elseif($p->pesan == ';)')
-                    <img src = {{asset('fotoeas/5.png')}} width="50px" height="50px" style="float:left">
-
+            @if($displayImage)
+                @foreach ($pesanArray as $word)
+                    @if($word == ':))')
+                        <img src="{{ asset('fotoeas/1.png') }}" width="50px" height="50px">
+                    @elseif($word == ':3')
+                        <img src="{{ asset('fotoeas/2.png') }}" width="50px" height="50px">
+                    @elseif($word == ':P')
+                        <img src="{{ asset('fotoeas/3.png') }}" width="50px" height="50px">
+                    @elseif($word == ':C')
+                        <img src="{{ asset('fotoeas/4.png') }}" width="50px" height="50px">
+                    @elseif($word == ';)')
+                        <img src="{{ asset('fotoeas/5.png') }}" width="50px" height="50px">
                     @else
-                    {{$p->pesan}}
+                        {{ $word }}
+                    @endif
+                    @endforeach
+                    @else
+                        {{ $p->pesan }}
                     @endif
                 </td>
                 <td>
                     <a href="/chat/viewchat/{{ $p->id }}" class="btn btn-success">View</a>
                 </td>
             </tr>
-                {{-- <td>{{ $p->Jumlah }}</td>
-                <td>{{ number_format($p->Harga, 2, ',', '.') }}</td>
-                <td>{{ number_format($p->Harga * $p->Jumlah, 2, ',', '.') }}</td>
-                <td>
-                    <a href="/keranjangbelanja/hapus/{{ $p->ID }}" class="btn btn-danger">Hapus</a>
-                </td> --}}
-
         @endforeach
     </table>
 
