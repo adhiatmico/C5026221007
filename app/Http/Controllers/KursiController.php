@@ -37,7 +37,7 @@ class KursiController extends Controller
 	public function edit($kodekursi)
 	{
 		$kursi = DB::table('kursi')->where('kodekursi',$kodekursi)->get();
-		return view('editkursi',['kursi' => $kursi]);
+		return view('editkursi',['kursii' => $kursi]);
 
 	}
 
@@ -65,7 +65,7 @@ class KursiController extends Controller
 		return redirect('/kursi');
 	}
 
-    
+
     public function cari(Request $request)
 	{
 		$cari = $request->cari;

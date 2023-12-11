@@ -17,14 +17,18 @@
         <ul class="navbar-nav">
           <!-- Dropdown -->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-              DATABASE
+            <a class="nav-link dropdown-toggle" href="/chat" id="navbardrop" data-toggle="dropdown">
+              Chat
             </a>
+
             <div class="dropdown-menu">
               <a class="dropdown-item" href="/pegawai">Pegawai</a>
               <a class="dropdown-item" href="/nilaikuliah">NilaiKuliah</a>
               <a class="dropdown-item" href="/keranjangbelanja">KeranjangBelanja</a>
               <a class="dropdown-item" href="/keranjangbelanja">Kursi</a>
+              <a class="dropdown-item" href="/kursi">Kursi</a>
+              <a class="dropdown-item" href="/chat">Chat</a>
+
 
             </div>
           </li>

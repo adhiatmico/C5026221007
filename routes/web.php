@@ -132,3 +132,9 @@ Route::get('/kursi/cari','App\Http\Controllers\KursiController@cari');
 
 
 Route::get('/kursi/viewkursi/{kodekursi}','App\Http\Controllers\KursiController@view');
+
+
+
+Route::get('/chat','App\Http\Controllers\ChatController@index');
+Route::get('/chat/viewchat/{id}','App\Http\Controllers\ChatController@view');
+Route::post('/chat/explode','App\Http\Controllers\ChatController@explode');
